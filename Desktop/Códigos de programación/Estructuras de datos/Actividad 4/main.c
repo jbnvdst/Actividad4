@@ -1,30 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "personaje.h"
-void capturar()
-{
-    int n[5],suma=0;
-    for(int i=0;i<5;i++)//guardamos los enteros
-    {printf("Inserte el entero en el espacio : %i \n", i+1);
-    scanf("%i",&n[i]);}
 
-    for(int i=0;i<5;i++) //suma
-    {   printf("%i \n",n[i]);
-        suma=suma+n[i];}
-
-    printf("el resultado es: %i \n ",suma);
-    printf("el promedio es: %i \n ",suma/5);
-    system("PAUSE");
-    
-}
-
-void mostrar(int n, char cadena[])
-{
-    system("CLS");
-    for(size_t i=0;i<n;i++)
-    {printf("%s",cadena);}
-    system("PAUSE");
-}
 
 int main()
 {
